@@ -10,7 +10,7 @@ import DialogActions from "@material-ui/core/DialogActions";
 import Typography from "@material-ui/core/Typography";
 import { withStyles } from "@material-ui/core/styles";
 
-class App extends React.Component {
+export class App extends React.Component {
   handleClose = () => {
     this.props.toggleDialogue();
   };
@@ -53,8 +53,8 @@ class App extends React.Component {
 
 App.propTypes = {
   classes: PropTypes.object.isRequired,
-  todos: PropTypes.array,
-  toggleTodo: PropTypes.func
+  sample: PropTypes.object,
+  toggleDialogue: PropTypes.func
 };
 
 const styles = theme => ({
