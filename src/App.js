@@ -37,13 +37,13 @@ export class App extends React.Component {
             <DialogContentText>1-2-3-4-5</DialogContentText>
           </DialogContent>
           <DialogActions>
-            <Button color="primary" onClick={this.handleClose}>
+            <Button variant="outlined" color="primary" onClick={this.handleClose}>
               OK
             </Button>
           </DialogActions>
         </Dialog>
 
-        <Button variant="raised" color="secondary" onClick={this.handleClick}>
+        <Button variant="outlined" color="primary" size="large" onClick={this.handleClick}>
           Super Secret Password
         </Button>
       </div>
