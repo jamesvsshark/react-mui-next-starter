@@ -50,15 +50,17 @@ ShallowWrapper {
                     <WithStyles(Button)
                               color="primary"
                               onClick={[Function]}
+                              variant="outlined"
                     >
                               OK
                     </WithStyles(Button)>
           </WithStyles(DialogActions)>
 </WithStyles(Dialog)>,
         <WithStyles(Button)
-          color="secondary"
+          color="primary"
           onClick={[Function]}
-          variant="raised"
+          size="large"
+          variant="outlined"
 >
           Super Secret Password
 </WithStyles(Button)>,
@@ -120,6 +122,7 @@ ShallowWrapper {
               <WithStyles(Button)
                             color="primary"
                             onClick={[Function]}
+                            variant="outlined"
               >
                             OK
               </WithStyles(Button)>
@@ -172,6 +175,7 @@ ShallowWrapper {
               "children": <WithStyles(Button)
                 color="primary"
                 onClick={[Function]}
+                variant="outlined"
 >
                 OK
 </WithStyles(Button)>,
@@ -185,6 +189,7 @@ ShallowWrapper {
                 "children": "OK",
                 "color": "primary",
                 "onClick": [Function],
+                "variant": "outlined",
               },
               "ref": null,
               "rendered": "OK",
@@ -201,9 +206,10 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": "Super Secret Password",
-          "color": "secondary",
+          "color": "primary",
           "onClick": [Function],
-          "variant": "raised",
+          "size": "large",
+          "variant": "outlined",
         },
         "ref": null,
         "rendered": "Super Secret Password",
@@ -248,15 +254,17 @@ ShallowWrapper {
                         <WithStyles(Button)
                                     color="primary"
                                     onClick={[Function]}
+                                    variant="outlined"
                         >
                                     OK
                         </WithStyles(Button)>
             </WithStyles(DialogActions)>
 </WithStyles(Dialog)>,
           <WithStyles(Button)
-            color="secondary"
+            color="primary"
             onClick={[Function]}
-            variant="raised"
+            size="large"
+            variant="outlined"
 >
             Super Secret Password
 </WithStyles(Button)>,
@@ -318,6 +326,7 @@ ShallowWrapper {
                 <WithStyles(Button)
                                 color="primary"
                                 onClick={[Function]}
+                                variant="outlined"
                 >
                                 OK
                 </WithStyles(Button)>
@@ -370,6 +379,7 @@ ShallowWrapper {
                 "children": <WithStyles(Button)
                   color="primary"
                   onClick={[Function]}
+                  variant="outlined"
 >
                   OK
 </WithStyles(Button)>,
@@ -383,6 +393,7 @@ ShallowWrapper {
                   "children": "OK",
                   "color": "primary",
                   "onClick": [Function],
+                  "variant": "outlined",
                 },
                 "ref": null,
                 "rendered": "OK",
@@ -399,9 +410,10 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": "Super Secret Password",
-            "color": "secondary",
+            "color": "primary",
             "onClick": [Function],
-            "variant": "raised",
+            "size": "large",
+            "variant": "outlined",
           },
           "ref": null,
           "rendered": "Super Secret Password",
