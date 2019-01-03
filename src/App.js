@@ -260,7 +260,7 @@ export const ProductCards = () => {
     card: {
       maxWidth: 345,
       display: "inline-block",
-      margin: "2rem .5rem",
+      margin: "2rem .5rem"
     }
   });
 
