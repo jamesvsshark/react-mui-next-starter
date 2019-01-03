@@ -5,9 +5,9 @@
   "dependencies": {
     "@material-ui/core": "^3.8.1",
     "@material-ui/icons": "^3.0.1",
-    "@material-ui/styles": "^3.0.0-alpha.4",
-    "react": "^16.7.0-alpha",
-    "react-dom": "^16.7.0",
+    "@material-ui/styles": "^3.0.0-alpha.6",
+    "react": "next",
+    "react-dom": "next",
     "react-redux": "^6.0.0",
     "react-scripts": "2.1.2",
     "redux": "^4.0.1"

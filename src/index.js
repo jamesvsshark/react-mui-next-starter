@@ -2,8 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
-import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-import CssBaseline from '@material-ui/core/CssBaseline';
+import "./bootstrap";
+import { createMuiTheme } from "@material-ui/core/styles";
+import { ThemeProvider } from "@material-ui/styles";
+import CssBaseline from "@material-ui/core/CssBaseline";
 import rootReducer from "./redux";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
@@ -20,11 +22,12 @@ ReactDOM.render(
   <Provider store={store}>
     <React.Fragment>
       <CssBaseline />
-      <MuiThemeProvider theme={theme}>
+      <ThemeProvider theme={theme}>
         <App />
-      </MuiThemeProvider>
+      </ThemeProvider>
     </React.Fragment>
   </Provider>,
   document.getElementById("root")
 );
+
 registerServiceWorker();
