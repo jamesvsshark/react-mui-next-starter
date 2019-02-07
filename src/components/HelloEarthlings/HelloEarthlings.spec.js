@@ -7,7 +7,7 @@ import { HelloEarthlings } from "./HelloEarthlings";
 
 let props;
 
-xdescribe("HelloEarthlings", () => {
+describe("HelloEarthlings", () => {
   beforeEach(() => {
     props = {
       classes: {},
