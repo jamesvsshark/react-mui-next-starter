@@ -1,1145 +1,437 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HelloEarthlings should match the snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <HelloEarthlings
-    classes={Object {}}
-    sample={Object {}}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <WithStyles(AppBar)
-          position="static"
+exports[`HelloEarthlings: should render a modal when the login button is clicked 1`] = `
+<DocumentFragment>
+  <div
+    class="Hook-root-1wsdclo"
+  >
+    <header
+      class="MuiPaper-root-10 MuiPaper-elevation4-16 MuiAppBar-root-1 MuiAppBar-positionStatic-5 MuiAppBar-colorPrimary-8"
+    >
+      <div
+        class="MuiToolbar-root-37 MuiToolbar-regular-39 MuiToolbar-gutters-38"
+      >
+        <button
+          aria-label="Menu"
+          class="MuiButtonBase-root-47 MuiIconButton-root-41 MuiIconButton-colorInherit-42 Hook-menuButton-14d7ubx"
+          tabindex="0"
+          type="button"
         >
-          <WithStyles(Toolbar)>
-            <WithStyles(IconButton)
-              aria-label="Menu"
-              className="Hook-menuButton-14d7ubx"
-              color="inherit"
-            >
-              <pure(MenuIcon) />
-            </WithStyles(IconButton)>
-            <WithStyles(Typography)
-              className="Hook-grow-9qmz7"
-              color="inherit"
-              variant="h6"
-            >
-              <span
-                aria-label="hello"
-                role="img"
-              >
-                👾
-              </span>
-              Hello, Earthlings
-               
-              <span
-                aria-label="welcome"
-                role="img"
-              >
-                👽
-              </span>
-            </WithStyles(Typography)>
-            <WithStyles(Button)
-              color="inherit"
-              onClick={[Function]}
-            >
-              Login
-            </WithStyles(Button)>
-          </WithStyles(Toolbar)>
-        </WithStyles(AppBar)>,
-        <AppHero
-          headline="React-MUI Next Starter"
-          subheadline="Happy Coding!"
-        />,
-        <main>
-          <WithStyles(Grid)
-            container={true}
-            spacing={24}
+          <span
+            class="MuiIconButton-label-46"
           >
-            <WithStyles(Grid)
-              item={true}
-              md={4}
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-50"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
             >
-              <AppMarketingBlurb
-                title="MUI Theme Support and Hooks"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.
-              </AppMarketingBlurb>
-            </WithStyles(Grid)>
-            <WithStyles(Grid)
-              item={true}
-              md={4}
-            >
-              <AppMarketingBlurb
-                title="React Hooks (alpha)"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.
-              </AppMarketingBlurb>
-            </WithStyles(Grid)>
-            <WithStyles(Grid)
-              item={true}
-              md={4}
-            >
-              <AppMarketingBlurb
-                title="Redux State Management?"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.
-              </AppMarketingBlurb>
-            </WithStyles(Grid)>
-          </WithStyles(Grid)>
-        </main>,
-        <AppCTA />,
-        <ProductCards />,
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root-242"
+          />
+        </button>
+        <h6
+          class="MuiTypography-root-59 MuiTypography-h6-76 MuiTypography-colorInherit-88 Hook-grow-9qmz7"
+        >
+          <span
+            aria-label="hello"
+            role="img"
+          >
+            👾
+          </span>
+          Hello, Earthlings 
+          <span
+            aria-label="welcome"
+            role="img"
+          >
+            👽
+          </span>
+        </h6>
+        <button
+          class="MuiButtonBase-root-47 MuiButton-root-95 MuiButton-text-97 MuiButton-flat-100 MuiButton-colorInherit-116"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-96"
+          >
+            Login
+          </span>
+          <span
+            class="MuiTouchRipple-root-242"
+          />
+        </button>
+      </div>
+    </header>
+    <div
+      class="MuiPaper-root-10 MuiPaper-elevation2-14 MuiPaper-rounded-11 Hook-paperHero-16zmsfl"
+    >
+      <h3
+        class="MuiTypography-root-59 MuiTypography-h3-73 MuiTypography-gutterBottom-86"
+      >
+        React-MUI Next Starter
+      </h3>
+      <h5
+        class="MuiTypography-root-59 MuiTypography-h5-75 MuiTypography-gutterBottom-86"
+      >
+        Happy Coding!  
+        <span
+          aria-label="party like its 2019"
+          role="img"
+        >
+          🎉
+        </span>
+      </h5>
+      <div
+        class="Hook-buttonWrapper-v6mf6p"
+      >
+        <button
+          class="MuiButtonBase-root-47 MuiButton-root-95 MuiButton-contained-106 MuiButton-containedSecondary-108 MuiButton-raised-109 MuiButton-raisedSecondary-111 MuiButton-sizeLarge-119"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-96"
+          >
+            Get Started
+          </span>
+          <span
+            class="MuiTouchRipple-root-242"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root-47 MuiButton-root-95 MuiButton-text-97 MuiButton-textSecondary-99 MuiButton-flat-100 MuiButton-flatSecondary-102 MuiButton-sizeLarge-119"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-96"
+          >
+            Learn More
+          </span>
+          <span
+            class="MuiTouchRipple-root-242"
+          />
+        </button>
+      </div>
+    </div>
+    <main>
+      <div
+        class="MuiGrid-container-121 MuiGrid-spacing-xs-24-145"
+      >
         <div
-          className="Hook-moreProducts-fywh77"
+          class="MuiGrid-item-122 MuiGrid-grid-md-4-181"
         >
-          <WithStyles(Button)
-            color="secondary"
-            size="large"
-            variant="contained"
+          <section
+            class="Hook-copyContent-g6wdx5"
           >
-            View more Products Here
-          </WithStyles(Button)>
-        </div>,
-        <AppFooter />,
-        <LoginDialog
-          isDialogOpen={false}
-          toggleDialog={[Function]}
-        />,
-      ],
-      "className": "Hook-root-1wsdclo",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <WithStyles(Toolbar)>
-            <WithStyles(IconButton)
-              aria-label="Menu"
-              className="Hook-menuButton-14d7ubx"
-              color="inherit"
+            <h6
+              class="MuiTypography-root-59 MuiTypography-h6-76 MuiTypography-gutterBottom-86 MuiTypography-alignCenter-82"
             >
-              <pure(MenuIcon) />
-            </WithStyles(IconButton)>
-            <WithStyles(Typography)
-              className="Hook-grow-9qmz7"
-              color="inherit"
-              variant="h6"
+              MUI Theme Support and Hooks
+            </h6>
+            <p
+              class="MuiTypography-root-59 MuiTypography-body1-68 MuiTypography-gutterBottom-86 MuiTypography-paragraph-87 MuiTypography-alignCenter-82"
             >
-              <span
-                aria-label="hello"
-                role="img"
-              >
-                👾
-              </span>
-              Hello, Earthlings
-               
-              <span
-                aria-label="welcome"
-                role="img"
-              >
-                👽
-              </span>
-            </WithStyles(Typography)>
-            <WithStyles(Button)
-              color="inherit"
-              onClick={[Function]}
-            >
-              Login
-            </WithStyles(Button)>
-          </WithStyles(Toolbar)>,
-          "position": "static",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <WithStyles(IconButton)
-                aria-label="Menu"
-                className="Hook-menuButton-14d7ubx"
-                color="inherit"
-              >
-                <pure(MenuIcon) />
-              </WithStyles(IconButton)>,
-              <WithStyles(Typography)
-                className="Hook-grow-9qmz7"
-                color="inherit"
-                variant="h6"
-              >
-                <span
-                  aria-label="hello"
-                  role="img"
-                >
-                  👾
-                </span>
-                Hello, Earthlings
-                 
-                <span
-                  aria-label="welcome"
-                  role="img"
-                >
-                  👽
-                </span>
-              </WithStyles(Typography)>,
-              <WithStyles(Button)
-                color="inherit"
-                onClick={[Function]}
-              >
-                Login
-              </WithStyles(Button)>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "aria-label": "Menu",
-                "children": <pure(MenuIcon) />,
-                "className": "Hook-menuButton-14d7ubx",
-                "color": "inherit",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {},
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": Array [
-                  <span
-                    aria-label="hello"
-                    role="img"
-                  >
-                    👾
-                  </span>,
-                  "Hello, Earthlings",
-                  " ",
-                  <span
-                    aria-label="welcome"
-                    role="img"
-                  >
-                    👽
-                  </span>,
-                ],
-                "className": "Hook-grow-9qmz7",
-                "color": "inherit",
-                "variant": "h6",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "aria-label": "hello",
-                    "children": "👾",
-                    "role": "img",
-                  },
-                  "ref": null,
-                  "rendered": "👾",
-                  "type": "span",
-                },
-                "Hello, Earthlings",
-                " ",
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "aria-label": "welcome",
-                    "children": "👽",
-                    "role": "img",
-                  },
-                  "ref": null,
-                  "rendered": "👽",
-                  "type": "span",
-                },
-              ],
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Login",
-                "color": "inherit",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": "Login",
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "headline": "React-MUI Next Starter",
-          "subheadline": "Happy Coding!",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <WithStyles(Grid)
-            container={true}
-            spacing={24}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.
+            </p>
+          </section>
+        </div>
+        <div
+          class="MuiGrid-item-122 MuiGrid-grid-md-4-181"
+        >
+          <section
+            class="Hook-copyContent-g6wdx5"
           >
-            <WithStyles(Grid)
-              item={true}
-              md={4}
+            <h6
+              class="MuiTypography-root-59 MuiTypography-h6-76 MuiTypography-gutterBottom-86 MuiTypography-alignCenter-82"
             >
-              <AppMarketingBlurb
-                title="MUI Theme Support and Hooks"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.
-              </AppMarketingBlurb>
-            </WithStyles(Grid)>
-            <WithStyles(Grid)
-              item={true}
-              md={4}
+              React Hooks (alpha)
+            </h6>
+            <p
+              class="MuiTypography-root-59 MuiTypography-body1-68 MuiTypography-gutterBottom-86 MuiTypography-paragraph-87 MuiTypography-alignCenter-82"
             >
-              <AppMarketingBlurb
-                title="React Hooks (alpha)"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.
-              </AppMarketingBlurb>
-            </WithStyles(Grid)>
-            <WithStyles(Grid)
-              item={true}
-              md={4}
-            >
-              <AppMarketingBlurb
-                title="Redux State Management?"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.
-              </AppMarketingBlurb>
-            </WithStyles(Grid)>
-          </WithStyles(Grid)>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <WithStyles(Grid)
-                item={true}
-                md={4}
-              >
-                <AppMarketingBlurb
-                  title="MUI Theme Support and Hooks"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.
-                </AppMarketingBlurb>
-              </WithStyles(Grid)>,
-              <WithStyles(Grid)
-                item={true}
-                md={4}
-              >
-                <AppMarketingBlurb
-                  title="React Hooks (alpha)"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.
-                </AppMarketingBlurb>
-              </WithStyles(Grid)>,
-              <WithStyles(Grid)
-                item={true}
-                md={4}
-              >
-                <AppMarketingBlurb
-                  title="Redux State Management?"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.
-                </AppMarketingBlurb>
-              </WithStyles(Grid)>,
-            ],
-            "container": true,
-            "spacing": 24,
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": <AppMarketingBlurb
-                  title="MUI Theme Support and Hooks"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.
-                </AppMarketingBlurb>,
-                "item": true,
-                "md": 4,
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.",
-                  "title": "MUI Theme Support and Hooks",
-                },
-                "ref": null,
-                "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.",
-                "type": [Function],
-              },
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": <AppMarketingBlurb
-                  title="React Hooks (alpha)"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.
-                </AppMarketingBlurb>,
-                "item": true,
-                "md": 4,
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.",
-                  "title": "React Hooks (alpha)",
-                },
-                "ref": null,
-                "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.",
-                "type": [Function],
-              },
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": <AppMarketingBlurb
-                  title="Redux State Management?"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.
-                </AppMarketingBlurb>,
-                "item": true,
-                "md": 4,
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.",
-                  "title": "Redux State Management?",
-                },
-                "ref": null,
-                "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.",
-                "type": [Function],
-              },
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        "type": "main",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <WithStyles(Button)
-            color="secondary"
-            size="large"
-            variant="contained"
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.
+            </p>
+          </section>
+        </div>
+        <div
+          class="MuiGrid-item-122 MuiGrid-grid-md-4-181"
+        >
+          <section
+            class="Hook-copyContent-g6wdx5"
           >
-            View more Products Here
-          </WithStyles(Button)>,
-          "className": "Hook-moreProducts-fywh77",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "View more Products Here",
-            "color": "secondary",
-            "size": "large",
-            "variant": "contained",
-          },
-          "ref": null,
-          "rendered": "View more Products Here",
-          "type": [Function],
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "isDialogOpen": false,
-          "toggleDialog": [Function],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <WithStyles(AppBar)
-            position="static"
+            <h6
+              class="MuiTypography-root-59 MuiTypography-h6-76 MuiTypography-gutterBottom-86 MuiTypography-alignCenter-82"
+            >
+              Redux State Management?
+            </h6>
+            <p
+              class="MuiTypography-root-59 MuiTypography-body1-68 MuiTypography-gutterBottom-86 MuiTypography-paragraph-87 MuiTypography-alignCenter-82"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.
+            </p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <div
+      class="MuiPaper-root-10 MuiPaper-elevation2-14 MuiPaper-rounded-11 Hook-ctaWrapper-re3t46"
+    >
+      <p
+        class="MuiTypography-root-59 MuiTypography-h5-75 MuiTypography-gutterBottom-86 MuiTypography-paragraph-87 MuiTypography-alignCenter-82"
+      >
+        Ready to build something out of this world?
+      </p>
+      <button
+        class="MuiButtonBase-root-47 MuiButton-root-95 MuiButton-contained-106 MuiButton-containedPrimary-107 MuiButton-raised-109 MuiButton-raisedPrimary-110 MuiButton-sizeLarge-119"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-96"
+        >
+          Get Started
+        </span>
+        <span
+          class="MuiTouchRipple-root-242"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiPaper-root-10 MuiPaper-elevation1-13 MuiPaper-rounded-11 MuiCard-root-218 Hook-card-n8bh9d"
+    >
+      <button
+        class="MuiButtonBase-root-47 MuiCardActionArea-root-219"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="MuiCardContent-root-222"
+        >
+          <h2
+            class="MuiTypography-root-59 MuiTypography-h5-75 MuiTypography-gutterBottom-86"
           >
-            <WithStyles(Toolbar)>
-              <WithStyles(IconButton)
-                aria-label="Menu"
-                className="Hook-menuButton-14d7ubx"
-                color="inherit"
-              >
-                <pure(MenuIcon) />
-              </WithStyles(IconButton)>
-              <WithStyles(Typography)
-                className="Hook-grow-9qmz7"
-                color="inherit"
-                variant="h6"
-              >
-                <span
-                  aria-label="hello"
-                  role="img"
-                >
-                  👾
-                </span>
-                Hello, Earthlings
-                 
-                <span
-                  aria-label="welcome"
-                  role="img"
-                >
-                  👽
-                </span>
-              </WithStyles(Typography)>
-              <WithStyles(Button)
-                color="inherit"
-                onClick={[Function]}
-              >
-                Login
-              </WithStyles(Button)>
-            </WithStyles(Toolbar)>
-          </WithStyles(AppBar)>,
-          <AppHero
-            headline="React-MUI Next Starter"
-            subheadline="Happy Coding!"
-          />,
-          <main>
-            <WithStyles(Grid)
-              container={true}
-              spacing={24}
-            >
-              <WithStyles(Grid)
-                item={true}
-                md={4}
-              >
-                <AppMarketingBlurb
-                  title="MUI Theme Support and Hooks"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.
-                </AppMarketingBlurb>
-              </WithStyles(Grid)>
-              <WithStyles(Grid)
-                item={true}
-                md={4}
-              >
-                <AppMarketingBlurb
-                  title="React Hooks (alpha)"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.
-                </AppMarketingBlurb>
-              </WithStyles(Grid)>
-              <WithStyles(Grid)
-                item={true}
-                md={4}
-              >
-                <AppMarketingBlurb
-                  title="Redux State Management?"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.
-                </AppMarketingBlurb>
-              </WithStyles(Grid)>
-            </WithStyles(Grid)>
-          </main>,
-          <AppCTA />,
-          <ProductCards />,
-          <div
-            className="Hook-moreProducts-fywh77"
+            Product A
+          </h2>
+          <p
+            class="MuiTypography-root-59 MuiTypography-body1-68"
           >
-            <WithStyles(Button)
-              color="secondary"
-              size="large"
-              variant="contained"
-            >
-              View more Products Here
-            </WithStyles(Button)>
-          </div>,
-          <AppFooter />,
-          <LoginDialog
-            isDialogOpen={false}
-            toggleDialog={[Function]}
-          />,
-        ],
-        "className": "Hook-root-1wsdclo",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <WithStyles(Toolbar)>
-              <WithStyles(IconButton)
-                aria-label="Menu"
-                className="Hook-menuButton-14d7ubx"
-                color="inherit"
-              >
-                <pure(MenuIcon) />
-              </WithStyles(IconButton)>
-              <WithStyles(Typography)
-                className="Hook-grow-9qmz7"
-                color="inherit"
-                variant="h6"
-              >
-                <span
-                  aria-label="hello"
-                  role="img"
-                >
-                  👾
-                </span>
-                Hello, Earthlings
-                 
-                <span
-                  aria-label="welcome"
-                  role="img"
-                >
-                  👽
-                </span>
-              </WithStyles(Typography)>
-              <WithStyles(Button)
-                color="inherit"
-                onClick={[Function]}
-              >
-                Login
-              </WithStyles(Button)>
-            </WithStyles(Toolbar)>,
-            "position": "static",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
-                <WithStyles(IconButton)
-                  aria-label="Menu"
-                  className="Hook-menuButton-14d7ubx"
-                  color="inherit"
-                >
-                  <pure(MenuIcon) />
-                </WithStyles(IconButton)>,
-                <WithStyles(Typography)
-                  className="Hook-grow-9qmz7"
-                  color="inherit"
-                  variant="h6"
-                >
-                  <span
-                    aria-label="hello"
-                    role="img"
-                  >
-                    👾
-                  </span>
-                  Hello, Earthlings
-                   
-                  <span
-                    aria-label="welcome"
-                    role="img"
-                  >
-                    👽
-                  </span>
-                </WithStyles(Typography)>,
-                <WithStyles(Button)
-                  color="inherit"
-                  onClick={[Function]}
-                >
-                  Login
-                </WithStyles(Button)>,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "aria-label": "Menu",
-                  "children": <pure(MenuIcon) />,
-                  "className": "Hook-menuButton-14d7ubx",
-                  "color": "inherit",
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {},
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "children": Array [
-                    <span
-                      aria-label="hello"
-                      role="img"
-                    >
-                      👾
-                    </span>,
-                    "Hello, Earthlings",
-                    " ",
-                    <span
-                      aria-label="welcome"
-                      role="img"
-                    >
-                      👽
-                    </span>,
-                  ],
-                  "className": "Hook-grow-9qmz7",
-                  "color": "inherit",
-                  "variant": "h6",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "aria-label": "hello",
-                      "children": "👾",
-                      "role": "img",
-                    },
-                    "ref": null,
-                    "rendered": "👾",
-                    "type": "span",
-                  },
-                  "Hello, Earthlings",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "aria-label": "welcome",
-                      "children": "👽",
-                      "role": "img",
-                    },
-                    "ref": null,
-                    "rendered": "👽",
-                    "type": "span",
-                  },
-                ],
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "children": "Login",
-                  "color": "inherit",
-                  "onClick": [Function],
-                },
-                "ref": null,
-                "rendered": "Login",
-                "type": [Function],
-              },
-            ],
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "headline": "React-MUI Next Starter",
-            "subheadline": "Happy Coding!",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <WithStyles(Grid)
-              container={true}
-              spacing={24}
-            >
-              <WithStyles(Grid)
-                item={true}
-                md={4}
-              >
-                <AppMarketingBlurb
-                  title="MUI Theme Support and Hooks"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.
-                </AppMarketingBlurb>
-              </WithStyles(Grid)>
-              <WithStyles(Grid)
-                item={true}
-                md={4}
-              >
-                <AppMarketingBlurb
-                  title="React Hooks (alpha)"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.
-                </AppMarketingBlurb>
-              </WithStyles(Grid)>
-              <WithStyles(Grid)
-                item={true}
-                md={4}
-              >
-                <AppMarketingBlurb
-                  title="Redux State Management?"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.
-                </AppMarketingBlurb>
-              </WithStyles(Grid)>
-            </WithStyles(Grid)>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
-                <WithStyles(Grid)
-                  item={true}
-                  md={4}
-                >
-                  <AppMarketingBlurb
-                    title="MUI Theme Support and Hooks"
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.
-                  </AppMarketingBlurb>
-                </WithStyles(Grid)>,
-                <WithStyles(Grid)
-                  item={true}
-                  md={4}
-                >
-                  <AppMarketingBlurb
-                    title="React Hooks (alpha)"
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.
-                  </AppMarketingBlurb>
-                </WithStyles(Grid)>,
-                <WithStyles(Grid)
-                  item={true}
-                  md={4}
-                >
-                  <AppMarketingBlurb
-                    title="Redux State Management?"
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.
-                  </AppMarketingBlurb>
-                </WithStyles(Grid)>,
-              ],
-              "container": true,
-              "spacing": 24,
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "children": <AppMarketingBlurb
-                    title="MUI Theme Support and Hooks"
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.
-                  </AppMarketingBlurb>,
-                  "item": true,
-                  "md": 4,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.",
-                    "title": "MUI Theme Support and Hooks",
-                  },
-                  "ref": null,
-                  "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh.",
-                  "type": [Function],
-                },
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "children": <AppMarketingBlurb
-                    title="React Hooks (alpha)"
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.
-                  </AppMarketingBlurb>,
-                  "item": true,
-                  "md": 4,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.",
-                    "title": "React Hooks (alpha)",
-                  },
-                  "ref": null,
-                  "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a. Aliquam aliquet aliquet ligula, in aliquet mi pulvinar id. Vivamus cursus nunc ut ornare pretium. Duis ut ligula purus. Nunc posuere dapibus commodo. Sed felis turpis, ornare in feugiat ac, ullamcorper quis nibh. Sed ultrices arcu eu risus aliquam rutrum. Nulla ullamcorper, nunc id venenatis dapibus, lacus arcu vestibulum mi, ac rhoncus dui nunc sed sapien. Maecenas nec leo arcu. Suspendisse non vulputate ante.",
-                  "type": [Function],
-                },
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "children": <AppMarketingBlurb
-                    title="Redux State Management?"
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.
-                  </AppMarketingBlurb>,
-                  "item": true,
-                  "md": 4,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.",
-                    "title": "Redux State Management?",
-                  },
-                  "ref": null,
-                  "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus. Vivamus varius nulla at purus lacinia, in vehicula nibh ultricies. Nam vel mi et nulla posuere semper. Suspendisse urna risus, auctor a lectus dapibus, condimentum eleifend augue. Cras nec ornare sem. Maecenas efficitur purus in faucibus sagittis. Aenean sagittis est odio, at maximus nisi volutpat a.",
-                  "type": [Function],
-                },
-                "type": [Function],
-              },
-            ],
-            "type": [Function],
-          },
-          "type": "main",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <WithStyles(Button)
-              color="secondary"
-              size="large"
-              variant="contained"
-            >
-              View more Products Here
-            </WithStyles(Button)>,
-            "className": "Hook-moreProducts-fywh77",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "View more Products Here",
-              "color": "secondary",
-              "size": "large",
-              "variant": "contained",
-            },
-            "ref": null,
-            "rendered": "View more Products Here",
-            "type": [Function],
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "isDialogOpen": false,
-            "toggleDialog": [Function],
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromProps": true,
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus.
+          </p>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight-221"
+        />
+        <span
+          class="MuiTouchRipple-root-242"
+        />
+      </button>
+      <div
+        class="MuiCardActions-root-223"
+      >
+        <button
+          class="MuiButtonBase-root-47 MuiButton-root-95 MuiButton-text-97 MuiButton-textPrimary-98 MuiButton-flat-100 MuiButton-flatPrimary-101 MuiButton-sizeSmall-118 MuiCardActions-action-225"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-96"
+          >
+            Share
+          </span>
+          <span
+            class="MuiTouchRipple-root-242"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root-47 MuiButton-root-95 MuiButton-text-97 MuiButton-textPrimary-98 MuiButton-flat-100 MuiButton-flatPrimary-101 MuiButton-sizeSmall-118 MuiCardActions-action-225"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-96"
+          >
+            Learn More
+          </span>
+          <span
+            class="MuiTouchRipple-root-242"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root-10 MuiPaper-elevation1-13 MuiPaper-rounded-11 MuiCard-root-218 Hook-card-n8bh9d"
+    >
+      <button
+        class="MuiButtonBase-root-47 MuiCardActionArea-root-219"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="MuiCardContent-root-222"
+        >
+          <h2
+            class="MuiTypography-root-59 MuiTypography-h5-75 MuiTypography-gutterBottom-86"
+          >
+            Product XYZ
+          </h2>
+          <p
+            class="MuiTypography-root-59 MuiTypography-body1-68"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus.
+          </p>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight-221"
+        />
+        <span
+          class="MuiTouchRipple-root-242"
+        />
+      </button>
+      <div
+        class="MuiCardActions-root-223"
+      >
+        <button
+          class="MuiButtonBase-root-47 MuiButton-root-95 MuiButton-text-97 MuiButton-textPrimary-98 MuiButton-flat-100 MuiButton-flatPrimary-101 MuiButton-sizeSmall-118 MuiCardActions-action-225"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-96"
+          >
+            Share
+          </span>
+          <span
+            class="MuiTouchRipple-root-242"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root-47 MuiButton-root-95 MuiButton-text-97 MuiButton-textPrimary-98 MuiButton-flat-100 MuiButton-flatPrimary-101 MuiButton-sizeSmall-118 MuiCardActions-action-225"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-96"
+          >
+            Learn More
+          </span>
+          <span
+            class="MuiTouchRipple-root-242"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root-10 MuiPaper-elevation1-13 MuiPaper-rounded-11 MuiCard-root-218 Hook-card-n8bh9d"
+    >
+      <button
+        class="MuiButtonBase-root-47 MuiCardActionArea-root-219"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="MuiCardContent-root-222"
+        >
+          <h2
+            class="MuiTypography-root-59 MuiTypography-h5-75 MuiTypography-gutterBottom-86"
+          >
+            Product -99
+          </h2>
+          <p
+            class="MuiTypography-root-59 MuiTypography-body1-68"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur odio diam, eleifend condimentum ipsum rutrum at. Vestibulum eget ornare lacus.
+          </p>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight-221"
+        />
+        <span
+          class="MuiTouchRipple-root-242"
+        />
+      </button>
+      <div
+        class="MuiCardActions-root-223"
+      >
+        <button
+          class="MuiButtonBase-root-47 MuiButton-root-95 MuiButton-text-97 MuiButton-textPrimary-98 MuiButton-flat-100 MuiButton-flatPrimary-101 MuiButton-sizeSmall-118 MuiCardActions-action-225"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-96"
+          >
+            Share
+          </span>
+          <span
+            class="MuiTouchRipple-root-242"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root-47 MuiButton-root-95 MuiButton-text-97 MuiButton-textPrimary-98 MuiButton-flat-100 MuiButton-flatPrimary-101 MuiButton-sizeSmall-118 MuiCardActions-action-225"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-96"
+          >
+            Learn More
+          </span>
+          <span
+            class="MuiTouchRipple-root-242"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="Hook-moreProducts-fywh77"
+    >
+      <button
+        class="MuiButtonBase-root-47 MuiButton-root-95 MuiButton-contained-106 MuiButton-containedSecondary-108 MuiButton-raised-109 MuiButton-raisedSecondary-111 MuiButton-sizeLarge-119"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-96"
+        >
+          View more Products Here
+        </span>
+        <span
+          class="MuiTouchRipple-root-242"
+        />
+      </button>
+    </div>
+    <section>
+      <div
+        class="MuiPaper-root-10 MuiPaper-elevation2-14 MuiPaper-rounded-11 Hook-footer-1u3cyuj"
+      />
+      <div
+        class="MuiPaper-root-10 MuiPaper-elevation2-14 MuiPaper-rounded-11 Hook-dark-16m529a"
+      >
+        <p
+          class="MuiTypography-root-59 MuiTypography-body1-68 MuiTypography-gutterBottom-86 MuiTypography-paragraph-87 MuiTypography-alignCenter-82"
+        >
+          <span
+            aria-label="party like its 2019"
+            role="img"
+          >
+            🎉
+          </span>
+          2019
+        </p>
+      </div>
+    </section>
+  </div>
+</DocumentFragment>
 `;

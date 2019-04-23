@@ -1,24 +1,34 @@
 import React from "react";
-import { shallow } from "enzyme";
-import { HelloEarthlings } from "./HelloEarthlings";
+// import { shallow } from "enzyme";
+import {
+  render,
+  fireEvent,
+  cleanup,
+  waitForElement
+} from "react-testing-library";
+import { ThemeProvider } from "@material-ui/styles";
+import { createMuiTheme } from "@material-ui/core/styles";
 
-let props;
+import SUT from "./HelloEarthlings";
 
-describe("HelloEarthlings", () => {
-  beforeEach(() => {
-    props = {
-      classes: {},
-      sample: {}
-    };
-  });
+const theme = createMuiTheme();
 
-  it("renders without crashing", () => {
-    const wrapper = shallow(<HelloEarthlings {...props} />);
-    expect(wrapper).toBeDefined();
-  });
+afterEach(cleanup);
 
-  it("should match the snapshot", () => {
-    const wrapper = shallow(<HelloEarthlings {...props} />);
-    expect(wrapper).toMatchSnapshot();
-  });
+test("HelloEarthlings: should render a modal when the login button is clicked", async () => {
+  const { getByTestId, getByText, asFragment } = render(
+    <ThemeProvider theme={theme}>
+      <SUT />
+    </ThemeProvider>
+  );
+
+  const loginBtn = await waitForElement(() => getByText(/login/i));
+
+  expect(asFragment()).toMatchSnapshot();
+
+  fireEvent.click(loginBtn);
+
+  const loginModal = await waitForElement(() => getByTestId("loginModal"));
+
+  expect(loginModal).toBeDefined();
 });

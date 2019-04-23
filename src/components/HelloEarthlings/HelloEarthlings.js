@@ -205,7 +205,7 @@ export const AppMarketingBlurb = ({ title, children }) => {
       <Typography variant="h6" align="center" gutterBottom>
         {title}
       </Typography>
-      <Typography paragraph align="center" gutterBottom>
+      <Typography variant="body1" paragraph align="center" gutterBottom>
         {children}
       </Typography>
     </section>
@@ -274,7 +274,7 @@ export const ProductCards = () => {
             <Typography gutterBottom variant="h5" component="h2">
               {product.title}
             </Typography>
-            <Typography component="p">{product.description}</Typography>
+            <Typography variant="body1">{product.description}</Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
@@ -310,7 +310,7 @@ export const AppFooter = () => {
     <section>
       <Paper className={classes.footer} />
       <Paper className={classes.dark}>
-        <Typography align="center" paragraph gutterBottom>
+        <Typography variant="body1" align="center" paragraph gutterBottom>
           <span role="img" aria-label="party like its 2019">
             🎉
           </span>
@@ -323,7 +323,12 @@ export const AppFooter = () => {
 
 export const LoginDialog = ({ isDialogOpen, toggleDialog }) => {
   return (
-    <Dialog disableBackdropClick open={isDialogOpen} onClose={toggleDialog}>
+    <Dialog
+      data-testid="loginModal"
+      disableBackdropClick
+      open={isDialogOpen}
+      onClose={toggleDialog}
+    >
       <DialogTitle>Login for awesomeness</DialogTitle>
       <DialogContent>
         <DialogContentText>Coming soon</DialogContentText>
